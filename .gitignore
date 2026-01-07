@@ -1,0 +1,13 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/*.lock.hcl
+
+# AWS CLI / binaries (VERY IMPORTANT)
+terraform/aws/
+terraform/awscliv2.zip
+
+# OS / editor
+.DS_Store
+.vscode/
